@@ -1,0 +1,32 @@
+.Details {
+    width: 57%;
+    margin: 105px auto;
+    color: white;
+}
+
+.sub_img {
+    text-align: center;
+}
+
+.sub_img img {
+    width: 410px;
+    height: 330px;
+    border-radius: 0px 55px;
+}
+
+.Details-titel {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* .Details-info h4 {} */
+
+.description {
+    width: 65%;
+    margin: auto;
+}
+
+.description p {
+    text-align: start;
+}

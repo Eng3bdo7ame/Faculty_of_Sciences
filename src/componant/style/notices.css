@@ -1,0 +1,25 @@
+.my-notices {
+    display: flex;
+    align-items: center;
+    background-color: #00ffff3d;
+    padding: 10px;
+}
+
+.notices {
+    margin-top: 7%;
+}
+
+.notices-content {
+    width: 40%;
+    margin: auto;
+}
+
+.notices-logo img {
+    width: 65px;
+    padding-right: 10px;
+    border-radius: 100px;
+}
+
+.notices-info h5 {
+    font-size: 13px;
+}

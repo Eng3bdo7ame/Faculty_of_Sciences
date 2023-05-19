@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Aside from "./componant/intro_window/Aside";
+import Subject from "./componant/intro_window/subject_side";
+import Content from "./componant/intro_window/content";
+import Navbar from "./componant/intro_window/Navbar";
+import Login from "./componant/student_login";
+import Notices from "./componant/notices";
+import ChatingBox from "./componant/chating_box";
+import Groups from "./componant/Groups";
+import Portfolio from "./componant/portfolio";
+import Details from "./componant/subject_details";
+import Events from "./componant/Events";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Aside></Aside>
+      <Subject></Subject>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="Content" element={<Content />} />
+        <Route path="Notices" element={<Notices />} />
+        <Route path="Portfolio" element={<Portfolio />} />
+        <Route path="ChatingBox" element={<ChatingBox />} />
+        <Route path="Groups" element={<Groups />} />
+        <Route path="Details" element={<Details />} />
+        <Route path="Events" element={<Events />} />
+      </Routes>
     </div>
   );
 }
-
 export default App;

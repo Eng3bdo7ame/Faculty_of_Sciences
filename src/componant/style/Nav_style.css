@@ -1,0 +1,23 @@
+header {
+    background-color: rgb(71 94 106);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.search input {
+    width: 90%;
+    padding: 7px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+.nav_icon {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.nav_icon svg {
+    margin: 0px 20px 0px;
+}
