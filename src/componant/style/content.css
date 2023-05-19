@@ -8,7 +8,6 @@
 .content {
     width: 45%;
     margin: 95px auto 0px;
-    position: relative;
 }
 
 .content-logo a {
@@ -64,6 +63,36 @@
     font-size: 27px;
     border: none;
     position: absolute;
-    right: 0px;
+    right: 27%;
     margin-top: 25px;
+}
+
+.about-me {
+    background-color: white;
+    padding: 10px;
+}
+
+.about-me h3 {
+    text-align: center;
+}
+
+.my_details h4 {
+    text-align: center;
+}
+
+.my_details svg {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+table {
+    border: 2px solid black;
+    text-align: center;
+}
+
+table th,
+table tr,
+table td {
+    border: 2px solid black;
+    padding: 10px;
 }

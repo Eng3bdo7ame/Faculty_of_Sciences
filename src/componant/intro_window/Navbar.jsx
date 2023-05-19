@@ -18,7 +18,7 @@ function Navbar() {
               <Link to="/Notices">
                 <i class="fas fa-bell"></i>{" "}
               </Link>
-              <Link to="/ChatingBox">
+              <Link to="/Chating">
                 {" "}
                 <i class="fab fa-facebook-messenger"></i>
               </Link>

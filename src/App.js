@@ -6,6 +6,7 @@ import Content from "./componant/intro_window/content";
 import Navbar from "./componant/intro_window/Navbar";
 import Login from "./componant/student_login";
 import Notices from "./componant/notices";
+import Chating from "./componant/chating";
 import ChatingBox from "./componant/chating_box";
 import Groups from "./componant/Groups";
 import Portfolio from "./componant/portfolio";
@@ -23,6 +24,7 @@ function App() {
         <Route path="Content" element={<Content />} />
         <Route path="Notices" element={<Notices />} />
         <Route path="Portfolio" element={<Portfolio />} />
+        <Route path="Chating" element={<Chating />} />
         <Route path="ChatingBox" element={<ChatingBox />} />
         <Route path="Groups" element={<Groups />} />
         <Route path="Details" element={<Details />} />

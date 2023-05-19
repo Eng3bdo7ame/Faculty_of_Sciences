@@ -3,6 +3,7 @@ import imge_1 from "./../../imges/image1.jpg";
 import imge_2 from "./../../imges/image11.jpg";
 // import imge_3 from "./../../imges/image12.jpg";
 import "./../style/content.css";
+import { Link } from "react-router-dom";
 
 function content() {
   return (
@@ -11,6 +12,7 @@ function content() {
         <div className="content-1">
           <div className="content-logo">
             <img src={imge_1} alt="" />
+            <Link to="./">Eng_Ali</Link>
           </div>
           <div className="content-img">
             <img src={imge_2} alt="" />
@@ -34,6 +36,7 @@ function content() {
         <div className="content-1">
           <div className="content-logo">
             <img src={imge_1} alt="" />
+            <Link to="./">Eng_mohmed</Link>
           </div>
           <div className="content-img">
             <img src={imge_2} alt="" />

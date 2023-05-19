@@ -17,7 +17,7 @@ function Groups() {
               <div class="card">
                 <img src={Logo} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">Software Engineer</h5>
+                  <h5 class="card-title">Database</h5>
                   <div className="group-btn">
                     <Link to="/Details" class="btn btn-primary">
                       Show Details

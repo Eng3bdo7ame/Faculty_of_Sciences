@@ -42,14 +42,14 @@ function Aside() {
                   <div className="Setting ">
                     <ul class="list-group">
                       <li class="list-group-item">
-                        <Link to="">Help & support</Link>
+                        <Link to="#">Help & support</Link>
                       </li>
                       <li class="list-group-item">
-                        <Link to="">Setting & privacy</Link>
+                        <Link to="#">Setting & privacy</Link>
                       </li>
 
                       <li class="list-group-item">
-                        <Link to="  ">Log out</Link>
+                        <Link to="#">Log out</Link>
                       </li>
                     </ul>
                   </div>
